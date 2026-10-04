@@ -1,20 +1,104 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# 🍰 Mithra Sweets & Bakery
 
-# Run and deploy your AI Studio app
+> A modern, premium e-commerce web experience designed for a sweets and bakery business.
 
-This contains everything you need to run your app locally.
+## 📌 About the Project
 
-View your app in AI Studio: https://ai.studio/apps/44deecfd-b3e6-4f87-8315-538e29553410
+**Mithra Sweets & Bakery** is a modern e-commerce platform designed to provide customers with a smooth and visually engaging way to explore sweets, cakes, bakery products, beverages, gift collections, and special occasion products.
 
-## Run Locally
+The project combines the traditional identity of an Indian sweets and bakery brand with a modern digital shopping experience.
 
-**Prerequisites:**  Node.js
+The main focus is on **premium UI/UX, product discovery, responsive design, customer interaction, and a seamless ordering experience**.
 
+---
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## ✨ Features
+
+### 🛍️ Product Experience
+- Premium product showcase
+- Categorized sweets and bakery products
+- Product details and pricing
+- Premium cakes
+- Custom cake options
+- Festival collections
+- Gift boxes
+- Special occasion collections
+- Beverages and traditional drinks
+
+### 🎂 Cakes & Celebrations
+- Birthday cakes
+- Custom cakes
+- Wedding collections
+- Festival specials
+- Celebration packages
+- Gift collections
+
+### 🛒 Shopping Experience
+- Product browsing
+- Add to cart
+- Shopping bag
+- Quantity management
+- Checkout experience
+- Coupons and offers
+- Multiple payment options
+
+### 🚚 Order Experience
+- Order confirmation
+- Delivery information
+- Order tracking
+- Customer-friendly ordering flow
+- WhatsApp-assisted ordering
+
+### 🤖 AI Features
+- AI-powered product discovery
+- AI Sommelier experience
+- Personalized product suggestions
+- Smart product exploration
+
+### 📱 Responsive Design
+- Desktop responsive
+- Tablet responsive
+- Mobile responsive
+- Modern navigation
+- Premium product layouts
+- Smooth user experience
+
+---
+
+## 🎨 Design Philosophy
+
+The website follows three main principles:
+
+**Traditional Taste + Premium Design + Modern Technology**
+
+The interface is designed to represent the quality and heritage of the brand while keeping the shopping experience simple and intuitive.
+
+### Design Focus
+
+- Premium visual design
+- Product presentation
+- Typography
+- Visual hierarchy
+- Responsive layouts
+- Smooth interactions
+- Consistent branding
+- Easy navigation
+
+---
+
+## 🏗️ Main Sections
+
+```text
+🏠 Home
+🍬 Sweets
+🎂 Cakes
+🥐 Bakery
+☕ Beverages
+🎁 Gifts
+🎉 Festival Collections
+💝 Wedding & Celebrations
+🤖 AI Sommelier
+🛒 Shopping Bag
+📦 Orders
+👤 Customer Experience
+⚙️ Admin Management
