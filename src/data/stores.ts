@@ -1,0 +1,87 @@
+import { StoreLocation, CustomerReview } from '../types';
+
+export const STORES_DATA: StoreLocation[] = [
+  {
+    id: 'karur-hq',
+    city: 'Karur',
+    name: 'Mithra Heritage Flagship & Kitchen',
+    address: '42, Kovai Road, Opp. Municipal High School, Karur, Tamil Nadu 639002',
+    timing: '7:00 AM – 10:30 PM (Mon - Sun)',
+    phone: '+91 94432 18900',
+    mapQuery: 'Mithra Sweets Karur Kovai Road',
+    isFlagship: true,
+  },
+  {
+    id: 'coimbatore-rs-puram',
+    city: 'Coimbatore',
+    name: 'Mithra Gourmet Atelier',
+    address: '118, D.B. Road, R.S. Puram, Coimbatore, Tamil Nadu 641002',
+    timing: '8:00 AM – 10:30 PM (Mon - Sun)',
+    phone: '+91 98422 45100',
+    mapQuery: 'Mithra Sweets RS Puram Coimbatore',
+    isFlagship: false,
+  },
+  {
+    id: 'chennai-tnagar',
+    city: 'Chennai',
+    name: 'Mithra Confectionery Studio',
+    address: '86, Venkatnarayana Road, Near Panagal Park, T. Nagar, Chennai, Tamil Nadu 600017',
+    timing: '8:30 AM – 11:00 PM (Mon - Sun)',
+    phone: '+91 98400 91234',
+    mapQuery: 'Mithra Sweets T Nagar Chennai',
+    isFlagship: false,
+  },
+  {
+    id: 'tiruppur-kumaran',
+    city: 'Tiruppur',
+    name: 'Mithra Sweets & Bakes',
+    address: '25, Kumaran Road, Near Railway Station Junction, Tiruppur, Tamil Nadu 641601',
+    timing: '7:30 AM – 10:00 PM (Mon - Sun)',
+    phone: '+91 94862 33440',
+    mapQuery: 'Mithra Sweets Kumaran Road Tiruppur',
+    isFlagship: false,
+  },
+];
+
+export const REVIEWS_DATA: CustomerReview[] = [
+  {
+    id: 'rev-1',
+    name: 'Priya R.',
+    location: 'Coimbatore',
+    rating: 5,
+    comment: 'The Kaju Katli was extraordinarily fresh, thin, and dissolved effortlessly! The royal burgundy box packaging made it feel like an ultra-luxury luxury gift for my sister\'s housewarming.',
+    productName: 'Kaju Katli & Royal Heritage Box',
+    date: '2 days ago',
+    verified: true,
+  },
+  {
+    id: 'rev-2',
+    name: 'Karthik Muthukumar',
+    location: 'Chennai',
+    rating: 5,
+    comment: 'We ordered the Rasmalai Fusion Cake for our parents’ 30th anniversary. It arrived in pristine condition within 2 hours. Everyone couldn’t stop praising the moist sponge and delicate saffron cream!',
+    productName: 'Signature Royal Rasmalai Cake',
+    date: '1 week ago',
+    verified: true,
+  },
+  {
+    id: 'rev-3',
+    name: 'Ananya Sridhar',
+    location: 'Karur',
+    rating: 5,
+    comment: 'Their Ghee Mysore Pak is unmatched anywhere in Tamil Nadu. Warm, porous, and loaded with authentic pure cow ghee fragrance. Will order every festive season!',
+    productName: 'Ghee Mysore Pak',
+    date: '2 weeks ago',
+    verified: true,
+  },
+  {
+    id: 'rev-4',
+    name: 'Vigneshwaran P.',
+    location: 'Tiruppur',
+    rating: 5,
+    comment: 'The Nendran banana chips fried in pure coconut oil and mullu butter murukku were crunchy, non-oily, and packed in heavy-duty resealable aroma pouches. Top tier quality.',
+    productName: 'Kerala Banana Chips & Butter Murukku',
+    date: '3 weeks ago',
+    verified: true,
+  }
+];

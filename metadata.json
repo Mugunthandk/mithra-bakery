@@ -1,0 +1,6 @@
+{
+  "name": "Mithra Sweets & Bakery",
+  "description": "Artisanal Indian sweets, handcrafted cakes, fresh bakery delicacies, crispy snacks, and luxury gift hampers.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
